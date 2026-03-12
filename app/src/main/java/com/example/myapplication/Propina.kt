@@ -47,7 +47,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
 @Composable
 fun PropinaApp(modifier: Modifier = Modifier) {
     var preu by rememberSaveable { mutableStateOf("") }
